@@ -1,0 +1,138 @@
+{
+  "documents": [],
+  "forms": [
+    {
+      "id": "default_form",
+      "name": "DefaultForm",
+      "alias": null,
+      "description": "Default form created during conversion",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "text",
+          "label": "Title",
+          "description": null,
+          "required": true,
+          "default_value": null,
+          "validation_rules": [],
+          "display_properties": null,
+          "computed_formula": null,
+          "choices": [],
+          "help_text": null
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "rich_text",
+          "label": "Content",
+          "description": null,
+          "required": false,
+          "default_value": null,
+          "validation_rules": [],
+          "display_properties": null,
+          "computed_formula": null,
+          "choices": [],
+          "help_text": null
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "text",
+          "label": "Author",
+          "description": null,
+          "required": false,
+          "default_value": null,
+          "validation_rules": [],
+          "display_properties": null,
+          "computed_formula": null,
+          "choices": [],
+          "help_text": null
+        },
+        {
+          "id": "created_date",
+          "name": "Created",
+          "type": "datetime",
+          "label": "Created Date",
+          "description": null,
+          "required": false,
+          "default_value": null,
+          "validation_rules": [],
+          "display_properties": null,
+          "computed_formula": null,
+          "choices": [],
+          "help_text": null
+        }
+      ],
+      "layout": null,
+      "actions": [],
+      "validation_rules": [],
+      "security": null,
+      "computed_fields": [],
+      "subforms": [],
+      "created_date": null,
+      "modified_date": null,
+      "version": null
+    }
+  ],
+  "views": [
+    {
+      "id": "default_view",
+      "name": "AllDocuments",
+      "alias": null,
+      "description": "Default view showing all documents",
+      "selection_formula": null,
+      "columns": [
+        {
+          "id": "title",
+          "name": "title",
+          "title": "Title",
+          "field_name": null,
+          "formula": null,
+          "width": null,
+          "alignment": null,
+          "sortable": true,
+          "resizable": true,
+          "visible": true,
+          "data_type": "text",
+          "format": null
+        },
+        {
+          "id": "author",
+          "name": "author",
+          "title": "Author",
+          "field_name": null,
+          "formula": null,
+          "width": null,
+          "alignment": null,
+          "sortable": true,
+          "resizable": true,
+          "visible": true,
+          "data_type": "text",
+          "format": null
+        },
+        {
+          "id": "created_date",
+          "name": "created_date",
+          "title": "Created",
+          "field_name": null,
+          "formula": null,
+          "width": null,
+          "alignment": null,
+          "sortable": true,
+          "resizable": true,
+          "visible": true,
+          "data_type": "datetime",
+          "format": null
+        }
+      ],
+      "sorting": [],
+      "categorization": null,
+      "actions": [],
+      "security": null,
+      "created_date": null,
+      "modified_date": null,
+      "default_view": true
+    }
+  ]
+}
